@@ -1,2 +1,19 @@
 # Encontra-Caminho-Backtracking
-Implementar em C um algoritmo com backtracking para resolver puzzles sudoku, puzzle já discutido na disciplina. Abaixo um exemplo: Não podem haver números iguais em uma mesma linha, em uma mesma coluna ou em um mesmo grid (quadro 3 por 3). Considere sempre a versão do sudoku com quadros 9 por 9, e podendo ser preenchido com números de 1 a 9.Assim como na Tarefa A, deverá haver um modo análise, que neste caso deverá exibir quantas tentativas foram feitas (quantos preenchimentos foram considerados até se achar a solução). A interface e como exibir o resultado também ficará a critério da dupla. Faça exatamente o que está sendo pedido neste trabalho, ou seja, mesmo que você tenha uma idéia mais interessante para o programa, você deverá implementar exatamente o que está definido aqui no que diz respeito ao problema em si e ao paradigma backtracking.
+
+Esta matriz representa um espaço geográfico, onde cada célula representa um quadrado de
+1 metro quadrado. Temos neste espaço um cachorro, cuja posição inicial está
+representada por um quadrado marcado com '2' (ou seja, o cachorro está inicialmente nesta posição).
+O cachorro deverá caminhar pelos vários quadrados (ou seja, várias posições) até chegar
+em uma das células da primeira linha da tabela (linha de cima).
+Os quadrados marcados com '3' representam paredes, pelas quais o cachorro obviamente não pode
+passar. O cachorro só pode movimentar para cima, para baixo e para os lados. Ou seja,
+não pode se movimentar nas diagonais.
+Você deverá escrever um programa na linguagem C que utilize um algoritmo projetado
+por você, que leia um arquivo com as informações do local onde o cachorro está bem
+como sua exata posição inicial. Seu programa deverá então movimentar o cachorro até
+que ele chegue em uma das células da primeira linha da tabela, mostrando na tela cada
+movimentação feita.
+Seu programa deverá obrigatoriamente usar backtracking. Uma função recursiva
+chamada movimenta_cachorro deverá ser criada. Isso significa que primeiramente vocêdeverá encontrar a posição inicial do cachorro. Quando encontrar deverá chamar esta
+função uma única vez, e a partir daí ela chamará ela mesma, até que o cachorro chegue na
+primeira linha (linha zero).
