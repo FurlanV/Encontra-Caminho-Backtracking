@@ -1,5 +1,17 @@
 # Encontra-Caminho-Backtracking
 
+
+3333333133
+1331311111
+1131331113
+3111111313
+3113111311
+3131111131
+3131111131
+3133333333
+1111111111
+3111121111
+
 Esta matriz representa um espaço geográfico, onde cada célula representa um quadrado de
 1 metro quadrado. Temos neste espaço um cachorro, cuja posição inicial está
 representada por um quadrado marcado com '2' (ou seja, o cachorro está inicialmente nesta posição).
